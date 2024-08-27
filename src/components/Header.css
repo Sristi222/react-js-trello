@@ -1,0 +1,33 @@
+/* Header.css */
+
+.header {
+    background-color: #7fb8f0; /* Material UI primary color by default */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.header-button:hover {
+    opacity: 0.8;
+}
+
+.header-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
